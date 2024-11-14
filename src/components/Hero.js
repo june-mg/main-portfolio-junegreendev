@@ -1,14 +1,18 @@
 import React from "react";
-import "./Hero.scss";  // Import your SCSS file for styling
+import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <h1>I’m June Green, AI Developer</h1>
-      <p>On a mission to revolutionize industries with cutting-edge AI and blockchain technologies.</p>
-      <button className="cta-btn">Explore My Projects</button>
-    </div>
+    <section className="hero">
+      <h1>Hi I'm June Green</h1>
+      <p>I’m an AI Developer on a mission to create groundbreaking AI solutions.
+        My portfolio features innovative AI,
+        machine learning, and Web3 projects designed to solve
+        real-world challenges.</p>
+      <button className="cta-btn">Contact Me</button>
+    </section>
   );
 };
 
 export default Hero;
+

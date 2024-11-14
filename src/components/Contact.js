@@ -3,15 +3,16 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <h2>Let’s Connect!</h2>
-      <p>I'm open to opportunities and collaborations. Reach out via LinkedIn or Twitter.</p>
+    <section className="contact">
+      <h2>Contact Me</h2>
       <div className="contact-links">
-        <a href="https://www.linkedin.com/in/junegreen" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://twitter.com/junegreen" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="mailto:your.email@example.com">Email</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
-    </div>
+    </section>
   );
 };
 
 export default Contact;
+
